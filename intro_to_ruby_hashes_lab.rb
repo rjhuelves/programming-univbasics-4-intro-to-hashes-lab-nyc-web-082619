@@ -3,20 +3,20 @@ def new_hash
 end
 
 def my_hash
-  my_hash = {:name => "Richard", :occupation => "Student"}
+  {:name => "Richard"}
 end
 
 def pioneer
-  pioneer = {:name => "Grace Hopper"}
+  {:name => "Grace Hopper"}
 end
 
 def id_generator
-  id_generator = {:id => 1}
+  {:id => 1}
 end
 
 def my_hash_creator(key, value)
-  name = " "
-  my_hash_creator = {:name => #{name)}
+  # name = " "
+  # my_hash_creator = {:name => #{name)}
 end
 
 def read_from_hash(hash, key)
