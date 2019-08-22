@@ -23,13 +23,8 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  #update_counting_hash = {:apples => 3}
-  
-  if update_hash ["oranges"]
-    #update_hash ["oranges"] += 1
-  else
-    #update_hash["oranges"] = 1
-  end
+  hash[key] ? hash[key] += 1 : hash[key] = 1
+  hash
 end
 
 
